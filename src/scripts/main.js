@@ -20,8 +20,7 @@ function listMover(event) {
     parent.lastElementChild.style = '';
     parent.listRolled = false;
   } else if (parent.listRolled === false) {
-    parent.lastElementChild.style.height = '0';
-    parent.lastElementChild.style.visibility = 'hidden';
+    parent.lastElementChild.style.display = 'none';
     parent.listRolled = true;
   }
 }
